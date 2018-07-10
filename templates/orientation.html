@@ -1,0 +1,115 @@
+{% extends "layout.html" %}
+{% block content %}
+<body class="index-single">
+
+		<div id="container" class="container intro-effect-push">
+
+		<a class="cd-primary-nav-trigger" id="trigger-menu" href="#0">
+		  	<span class="cd-menu-icon"></span>
+		</a>
+
+
+			<header class="header">
+				<div class="bg-img">
+					<img  class="async-image hide" src="#" data-src="{{url_for('static',filename='img/mabuya-camp.jpg')}}" alt="mabuya" />
+				</div>
+				<div class="title hidden" id="title">					
+					<h1>Orientation</h1>
+				</div>
+			</header>
+			<button class="trigger scroll-down-pulse"><span>Trigger</span></button>
+			<div class="title">					
+				<h1 class="black">Orientation</h1>
+				<h2 class="subline">Culture Shock</h2>
+			</div>
+			<article class="content">
+				<div>
+					<h2><span class="black"></span><span class="green">Mabuya</span> Camp</h2>
+					<p><img src="{{url_for('static',filename='img/mabuya-dog.jpg')}}" width="200px" alt="group-on-plane" class="float-right rounded-img" />Mabuya camp is one of the many tourist lodges dotted across Malawi. It was a really great stepping stone into Malwawi. The owners are from Britain and moved here a few years ago. They do great food and have 3 lovely dogs. This is where we spent a few days going through some courses</p>
+
+					<h2><span class="black">The</span><span class="green"> language</span></h2>
+					<p>So, although most educated peaople in the country speak English, lot's of rural people do not and with Malawian culture it's really important to greet people in the vernacular. Our local guide Frackson was the one to take us through this. My favourite saying so far is "Mwatandala" which means good afternoon.</p>
+
+					<h2><span class="black"></span><span class="green">Cultural</span> awareness</h2>
+					<p>Matt took us through a full 8 hour day of cultural differences. I felt lots of this was direceted to the female members of the group however I also took lots from it. Matt was very brutal with his honestly and I think that was really important. We went through lots of health and safety stuff as well. Things like Malaria etc. The biggest rule is if you see a snake, run.</p>
+
+					<h2><span class="black"></span><span class="green">Market</span> visit</h2>
+					<p>On our last day in Lilongwe we decided to go to town and the Market. This was like boxing day on steroids. All the locals were so excited to see Muzungu (white people) and wanted to sell us things. Some nice little bits, but quite a lot of random clothes etc. After a long hot walk we jumped in the lodge pool had dinner and got ready for a the big ride up to Maji Zuwa, Chilumba.</p>
+
+					<p><img class="rounded-img" src="{{url_for('static',filename='img/mabuya-pool.jpg')}}" height="40%" width="40%" /></p>
+				</div>
+				<div class="article-footer">
+
+					<div class="divider"></div>
+
+					<div class="fullwidth">
+						<h3 class="black">Share this article on:</h3>
+						<div class="float-left">
+							<div class="social facebook float-left">
+								<a href="http://www.facebook.com/share.php?u=http://travelogue.seoresearch.com/single.html&amp;title=I want to travel the world">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</div>
+							<div class="social twitter float-left">
+								<a href="http://twitter.com/home?status=I want to travel the world+http://travelogue.seoresearch.com/single.html">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</div>
+							<div class="social googleplus float-left">
+								<a href="https://plus.google.com/share?url=http://travelogue.seoresearch.com/single.html">
+									<i class="fa fa-google-plus"></i>
+								</a>
+							</div>
+							<div class="social linkedin float-left">
+								<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://travelogue.seoresearch.com/single.html&amp;title=I want to travel the world&amp;source=http://travelogue.seoresearch.com/">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</div>
+							<div class="social reddit float-left">
+								<a href="http://www.reddit.com/submit?url=http://travelogue.seoresearch.com/single.html&amp;title=I want to travel the world">
+									<i class="fa fa-reddit"></i>
+								</a>
+							</div>
+							<div class="social tumblr float-left">
+								<a href="http://www.tumblr.com/share?v=3&amp;u=http://travelogue.seoresearch.com/single.html&amp;t=I want to travel the world">
+									<i class="fa fa-tumblr"></i>
+								</a>
+							</div>
+						</div> 
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+			<div class="divider_30"></div>
+			<div class="divider_30"></div>
+
+			</article>
+			
+
+
+			<div class="pagination grid">
+				<figure class="single-item-effect half">
+					<img src="{{url_for('static',filename='img/ethiopian-airlines.jpg')}}" alt="ethiopian-airlines"/>
+					<figcaption>
+						<div class="figcaption-border">
+							<h2><i class="fa fa-angle-left"></i> Previous <span>Post</span></h2>
+							<p>Day Of Travel</p>
+							<a href="day-of-travel.html">View more</a>
+						</div>
+					</figcaption>		
+				</figure>
+				<figure class="single-item-effect half">
+					<img src="{{url_for('static',filename='img/science-club-trimmed.jpg')}}" alt="science-club"/>
+					<figcaption>
+						<div class="figcaption-border">
+							<h2>Next <span>Post</span> <i class="fa fa-angle-right"></i> </h2>
+							<p>Wasambo</p>
+							<a href="wasambo.html">View more</a>
+						</div>
+					</figcaption>								
+				</figure>
+				<div class="clearfix"></div>
+			</div>
+		</div><!-- /container -->
+	</body>
+{% endblock %}

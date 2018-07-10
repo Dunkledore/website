@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Travelogue" />
+
+		<title>Ben In Malawi</title>
+		<link rel="shortcut icon" href="img/favicon.ico">
+
+		<!-- ### CSS Stylesheets ##################################################################### -->
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/normalize.css')}}" /><!-- CSS: Normalize -->
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/font-awesome.min.css')}}" /><!-- CSS: Font Awesome -->
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/styles.css')}}" /><!-- CSS: Main CSS -->
+		<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/responsive.css')}}" /><!-- CSS: Responsive CSS -->
+	</head>
+
+
+{% block content %}
+{% endblock %}
+{% include 'nav.html' %}
+
+        <script src="{{url_for('static', filename='js/modernizr.custom.js')}}"></script>
+        <script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/sidebarEffects.js')}}"></script>
+        <script src="{{url_for('static', filename='js/classie.js')}}"></script>
+        <script src="{{url_for('static', filename='js/custom.js')}}"></script>
+        <script src="{{url_for('static', filename='js/transition.js')}}"></script>
+        <script src="{{url_for('static', filename='js/jquery.infinitescroll.js')}}"></script>
+        <script src="{{url_for('static', filename='js/jquery.ketchup.all.min.js')}}"></script>
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <a href="#" class="back-to-top">Top</a>
+</html>
